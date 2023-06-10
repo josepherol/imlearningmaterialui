@@ -1,10 +1,12 @@
 import './App.css';
-import { Button, Box } from "@mui/material";
+import { Box } from "@mui/material";
+import Dashboard from "./templates/dashboard/dashboard"
  
 function App() {
   return (
     <Box>
-      <Button variant="contained">Hello World</Button>
+      <Dashboard />
+      
     </Box>
   );
 }
